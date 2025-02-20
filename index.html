@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="src/css.css" />
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
     <h1>AI poem generator</h1>
-    <form>
+    <form id="poem-generator">
       <input
         type="text"
         placeholder="Enter the topic of the poem"
@@ -20,10 +21,9 @@
       />
       <input type="submit" name="Submit" id="submitButton" />
     </form>
-    <div class="poem">
-      Poem will go here
-      <br />
-      Mataan da ni
+    <div class="poem" id="poem">
+    
+     
     </div>
   </body>
   <footer>
