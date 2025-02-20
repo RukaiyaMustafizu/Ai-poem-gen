@@ -2,36 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/css.css" />
-   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
-    <h1>AI poem generator</h1>
-    <form id="poem-generator">
-      <input
-        type="text"
-        placeholder="Enter the topic of the poem"
-        autofocus
-        required
-        autocomplete="off"
-        class="instructions"
-      />
-      <input type="submit" name="Submit" id="submitButton" />
-    </form>
-    <div class="poem" id="poem">
-    
-     
+      <h1>AI Poem Generator</h1>
+      <form id="poem-generator">
+        <input
+          type="text"
+          placeholder="Enter the topic of the poem"
+          autofocus
+          required
+          autocomplete="off"
+          id="user-instructions"
+          class="instructions"
+        />
+        <input type="submit" name="Submit" id="submitButton" />
+      </form>
+      <div class="poem" id="poem"></div>
     </div>
+    <footer>
+      This project was coded by Rukaiya Mustafizu Muhammad open access on
+      <a href="https://github.com/RukaiyaMustafizu/Ai-poem-gen">Github</a> and
+      the website is hosted on
+      <a href="https://aipoemgeneratoruky.netlify.app/">Netlify</a>
+    </footer>
+    <script src="src/index.js"></script>
   </body>
-  <footer>
-    This project was coded by Rukaiya Mustafizu Muhammad open access on
-    <a href="https://github.com/RukaiyaMustafizu/Ai-poem-gen "> Github</a> and
-    website is hosted on
-    <a href="https://aipoemgeneratoruky.netlify.app/ "> Netlify</a>
-  </footer>
-  </div>
-  <script src="src/index.js"></script>
 </html>

@@ -38,7 +38,7 @@ form {
   line-height: 10px;
   border: none;
   border-radius: 20px;
-  cursor: progress;
+  cursor: pointer;
   padding: 2px;
   font-size: 16px;
 }
