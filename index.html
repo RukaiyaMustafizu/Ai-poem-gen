@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/css.css" />
   </head>
   <body>
+    <div class="container">
     <h1>AI poem generator</h1>
     <form>
       <input
@@ -15,10 +16,11 @@
         autofocus
         required
         autocomplete="off"
+        class="instructions"
       />
       <input type="submit" name="Submit" id="submitButton" />
     </form>
-    <div>
+    <div class="poem">
       Poem will go here
       <br />
       Mataan da ni
@@ -30,5 +32,6 @@
     website is hosted on
     <a href="https://aipoemgeneratoruky.netlify.app/ "> Netlify</a>
   </footer>
+  </div>
   <script src="src/index.js"></script>
 </html>
