@@ -14,13 +14,16 @@ h1 {
   margin: 12px auto;
   max-width: 600px;
 }
-form {
-  padding: 30px;
+.form-container {
+  margin-bottom: 30px;
+  padding: 15px 20px;
   background-color: white;
   border-radius: 10px;
-  display: flex;
-  margin-bottom: 30px;
+
   box-shadow: #c3afafd7;
+}
+form {
+  display: flex;
 }
 .instructions {
   padding: 16px;
@@ -64,4 +67,32 @@ footer {
 }
 a {
   color: rgb(15, 109, 240);
+}
+#submitButton:hover {
+  background-color: #8fb6f7;
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+.hidden {
+  display: none;
+}
+
+@keyframes rotateEmoji {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-emoji {
+  display: inline-block;
+  animation: rotateEmoji 1s linear infinite;
 }

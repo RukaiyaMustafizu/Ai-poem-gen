@@ -3,27 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Dutch Poem Generator</title>
+    <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/css.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1>AI Dutch Poem Generator</h1>
-      <form id="poem-generator">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-          id="user-instructions"
-          class="instructions"
-        />
-        <input type="submit" name="Submit" id="submitButton" />
-      </form>
-      <div class="poem" id="poem"></div>
+      <h1>AI Poem Generator in any Language</h1>
+      <div class="form-container">
+        <form id="poem-generator">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            id="user-instructions"
+            class="instructions"
+          />
+          <input type="submit" name="Submit" id="submitButton" />
+        </form>
+        <div class="hint">
+          e.g.Poem in 'Arabic' about Flower, cookie, apple etc.
+        </div>
+      </div>
+      <div class="poem hidden" id="poem"></div>
     </div>
     <footer>
       This project was coded by Rukaiya Mustafizu Muhammad open access on
